@@ -4,7 +4,7 @@ let totalPages = 0; // Total halaman
 let data = []; // Menyimpan data
 
 // Ambil data dari file JSON
-$.getJSON('../.vscode/dataPaket.json', function(fetchedData) {
+$.getJSON('../data/dataPaket.json', function (fetchedData) {
     data = fetchedData; // Simpan data yang diambil
     totalPages = Math.ceil(data.length / itemsPerPage); // Hitung total halaman
     renderTable(); // Render tabel pertama kali
@@ -18,17 +18,21 @@ function renderTable() {
     const end = start + itemsPerPage; // Hitung index akhir
     const paginatedItems = data.slice(start, end); // Ambil item untuk halaman ini
 
-    $.each(paginatedItems, function(index, item) {
-        const statusClass = item.status_pengembalian === "Dikembalikan" ? "Sudah" : "Belum";
-        const styleClass = item.status_pengembalian === "Dikembalikan" ? "label-sudah" : "label-belum";
+    $.each(paginatedItems, function (index, item) {
+        const statusClass =
+            item.status_pengembalian === 'Dikembalikan' ? 'Sudah' : 'Belum';
+        const styleClass =
+            item.status_pengembalian === 'Dikembalikan'
+                ? 'label-sudah'
+                : 'label-belum';
 
         // Memisahkan waktu dan tanggal untuk waktu_tiba
-        const waktuArr_tiba = item.waktu_tiba.split(" ");
+        const waktuArr_tiba = item.waktu_tiba.split(' ');
         const waktu_tiba = waktuArr_tiba[0]; // 09.10.23
         const tanggal_tiba = waktuArr_tiba[1] || ''; // 15/10/2024
-        
+
         // Memisahkan waktu dan tanggal untuk waktu_diambil
-        const waktuArr_diambil = item.waktu_diambil.split(" ");
+        const waktuArr_diambil = item.waktu_diambil.split(' ');
         const waktu_diambil = waktuArr_diambil[0] || ''; // Tambahkan default jika undefined
         const tanggal_diambil = waktuArr_diambil[1] || '';
 
@@ -62,7 +66,7 @@ function updatePagination() {
 }
 
 // Event listener untuk tombol halaman
-$('.prev-page').on('click', function() {
+$('.prev-page').on('click', function () {
     if (currentPage > 1) {
         currentPage--;
         renderTable();
@@ -70,7 +74,7 @@ $('.prev-page').on('click', function() {
     }
 });
 
-$('.next-page').on('click', function() {
+$('.next-page').on('click', function () {
     if (currentPage < totalPages) {
         currentPage++;
         renderTable();
@@ -81,7 +85,7 @@ $('.next-page').on('click', function() {
 // Dropdown Logic
 const dropdowns = $('.dropdown');
 
-dropdowns.each(function() {
+dropdowns.each(function () {
     const dropdown = $(this);
     const select = dropdown.find('.select');
     const caret = dropdown.find('.caret');
@@ -90,7 +94,7 @@ dropdowns.each(function() {
     const selected = dropdown.find('.selected');
 
     // Toggle menu saat select diklik
-    select.on('click', function() {
+    select.on('click', function () {
         select.toggleClass('select-clicked');
         caret.toggleClass('caret-rotate');
         menu.toggleClass('menu-open');
@@ -100,13 +104,13 @@ dropdowns.each(function() {
             menu.css({
                 width: `${rect.width}px`, // Set lebar menu agar sama dengan select
                 left: `${rect.left}px`, // Atur posisi kiri menu
-                top: `${rect.bottom}px` // Atur posisi atas menu di bawah select
+                top: `${rect.bottom}px`, // Atur posisi atas menu di bawah select
             });
         }
     });
 
     // Menambahkan event listener pada setiap opsi
-    options.on('click', function() {
+    options.on('click', function () {
         // Mengubah teks yang dipilih
         selected.text($(this).text());
 
@@ -124,15 +128,18 @@ dropdowns.each(function() {
 });
 
 // Event listener untuk menutup dropdown saat mengklik di luar elemen dropdown
-$(document).on('click', function(event) {
-    dropdowns.each(function() {
+$(document).on('click', function (event) {
+    dropdowns.each(function () {
         const dropdown = $(this);
         const select = dropdown.find('.select');
         const caret = dropdown.find('.caret');
         const menu = dropdown.find('.menu');
 
         // Tutup menu jika klik berada di luar elemen select
-        if (!dropdown.is(event.target) && dropdown.has(event.target).length === 0) {
+        if (
+            !dropdown.is(event.target) &&
+            dropdown.has(event.target).length === 0
+        ) {
             select.removeClass('select-clicked');
             caret.removeClass('caret-rotate');
             menu.removeClass('menu-open');
