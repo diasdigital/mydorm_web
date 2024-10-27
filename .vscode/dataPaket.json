@@ -1,0 +1,137 @@
+[
+    {
+        "nama_penerima": "John Doe",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "101",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Emily White",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "102",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Layla Amelia",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "103",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Vina Cooper",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "104",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Karina Asri",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "201",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Miles Morales",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "302",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Muller",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "401",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "John Doe",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "101",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Emily White",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "102",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Layla Amelia",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "103",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Vina Cooper",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "104",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Karina Asri",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "201",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Miles Morales",
+        "pj_penerima": "Tom Brown",
+        "pj_penyerahan": "-",
+        "kamar": "302",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "-",
+        "status_pengembalian": "Belum Dikembalikan"
+    },
+    {
+        "nama_penerima": "Muller",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "401",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    },
+    {
+        "nama_penerima": "Aleck",
+        "pj_penerima": "Jane Smith",
+        "pj_penyerahan": "Alex Johnson",
+        "kamar": "111",
+        "waktu_tiba": "09.10.23 15/10/2024",
+        "waktu_diambil": "10.26.54 15/10/2024",
+        "status_pengembalian": "Dikembalikan"
+    }
+]
