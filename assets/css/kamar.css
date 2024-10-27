@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rakha{
+    padding: 30px 40px;
+}
+
+.rakha .row{
+    display: flex;
+    flex-direction: row;
+}
+
+.rakha .sizedbox-row{
+    flex: 1;
+    width: 20px;
+}
+
+.rakha .sizedbox-col{
+    height: 20px;
+}
+
+.rakha .grid {
+    margin: 20px 0px;
+    display: grid;
+    align-content: space-evenly;
+    gap: 20px;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px;
+}
+
+.rakha .container {
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #994F56;
+    color: white;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .rakha .row{
+        display: flex;
+        flex-direction: column;
+    }
+  }
