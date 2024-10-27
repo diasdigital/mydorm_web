@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
     <!-- SIDEBAR -->
     <section id="sidebar">
@@ -16,10 +18,16 @@
             <span class="text">My Dorm</span>
         </a>
         <ul class="side-menu top">
-            <li >
+            <li>
                 <a href="/index.html">
                     <i class='bx bx-chat'></i>
                     <span class="dashboard">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/logKeluarMasuk.html">
+                    <i class='bx bxs-detail'></i>
+                    <span class="Keluar-Masuk">Keluar-Masuk</span>
                 </a>
             </li>
             <li>
@@ -84,68 +92,70 @@
         <section id="main">
             <div class="paket-container">
                 <div class="container">
-                     <div class="button-container">
-                         <button class="add-button">+</button>
-                     </div>
-                     <!-- Search Bar -->
-                     <div class="search-bar">
-                         <input type="text" placeholder="Cari disini">
-                     </div>
-         
-                     <!-- Dropdown Menu -->
-                     <div class="dropdown">
-                         <div class="select">
-                             <span class="selected">Urutkan: </span>
-                             <div class="caret"></div>
-                         </div>
-                         <ul class="menu">
-                             <li>Hari ini</li>
-                             <li>Terlama</li>
-                         </ul>
-                     </div>
-                 </div>
-         
-                 <div class="table-container">
-                     <table id="data-table"> 
-                         <thead>
-                             <tr>
-                                 <th>Nama Penerima</th>
-                                 <th>PJ Penerima</th>
-                                 <th>PJ Penyerahan</th>
-                                 <th>Kamar</th>
-                                 <th>Waktu Tiba</th>
-                                 <th>Waktu Diambil</th>
-                                 <th>Status Pengembalian</th>
-                                 <th>Aksi</th> 
-                             </tr>
-                         </thead>
-                         <tbody>
-                             
-                             
-                         </tbody>
-                     </table>
-                 </div>
-         
-                 <div class="pagination-container">
-                     <div class="pagination-desc">
-                         Menampilkan data 1 sampai 8 dari 15 data
-                     </div>
-                     <div>
-                         <button class="prev-page"><</button>
-                         <span class="page-info"></span>
-                         <button class="next-page">></button>
-                     </div>
-                     
-                 </div>
-             </div>
+                    <div class="button-container">
+                        <button class="add-button">+</button>
+                    </div>
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <input type="text" placeholder="Cari disini">
+                    </div>
+
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown">
+                        <div class="select">
+                            <span class="selected">Urutkan: </span>
+                            <div class="caret"></div>
+                        </div>
+                        <ul class="menu">
+                            <li>Hari ini</li>
+                            <li>Terlama</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table id="data-table">
+                        <thead>
+                            <tr>
+                                <th>Nama Penerima</th>
+                                <th>PJ Penerima</th>
+                                <th>PJ Penyerahan</th>
+                                <th>Kamar</th>
+                                <th>Waktu Tiba</th>
+                                <th>Waktu Diambil</th>
+                                <th>Status Pengembalian</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination-container">
+                    <div class="pagination-desc">
+                        Menampilkan data 1 sampai 8 dari 15 data
+                    </div>
+                    <div>
+                        <button class="prev-page">
+                            << /button>
+                                <span class="page-info"></span>
+                                <button class="next-page">></button>
+                    </div>
+
+                </div>
+            </div>
         </section>
         <!-- MAIN -->
     </section>
     <!-- CONTENT -->
-    
-        
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../assets/js/paket.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
+
 </html>
