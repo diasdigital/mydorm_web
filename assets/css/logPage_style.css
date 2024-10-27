@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.container {
+    padding: 20px;
+}
+
+.notification-dot {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* Style actions */
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.add-button {
+    margin-right: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.searchbox {
+    margin-right: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    height: 35px;
+}
+
+
+.sort {
+    position: relative;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.selected-sort {
+    font-weight: bold;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid;
+}
+
+.dropdown-content a:hover {
+    background-color: lightblue;
+}
+
+.sort:hover .dropdown-content {
+    display: block;
+}
+
+/* data log */
+.single-log-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-keluar {
+    background-color: white;
+    color: darkred;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.activity-masuk {
+    background-color: white;
+    color: dodgerblue;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+}
+
+.single-action {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+th, td{
+    padding: 10px 35px 10px 35px;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 1px solid whitesmoke;
+}
+
+#data-info {
+    color: gainsboro;
+}
+
+#username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 8px;
+}
