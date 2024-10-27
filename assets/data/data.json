@@ -1,0 +1,46 @@
+{
+    "logs": [
+        {
+            "namaDormitizen": "Iksan Risandy",
+            "namaPenerima": "Alwan (HD)",
+            "kamar": "212",
+            "waktu": "10.26.54 - 15/10/2024",
+            "aktivitas": "Keluar"
+        },
+        {
+            "namaDormitizen": "Razan Althaf",
+            "namaPenerima": "Alwan (HD)",
+            "kamar": "212",
+            "waktu": "12.26.54 - 15/10/2024",
+            "aktivitas": "Masuk"
+        },
+        {
+            "namaDormitizen": "Zidan Siva",
+            "namaPenerima": "Alwan (HD)",
+            "kamar": "115",
+            "waktu": "13.30.21 - 15/10/2024",
+            "aktivitas": "Keluar"
+        },
+        {
+            "namaDormitizen": "Rakha Galih",
+            "namaPenerima": "Adhee (HD)",
+            "kamar": "413",
+            "waktu": "15.00.00 - 15/10/2024",
+            "aktivitas": "Keluar"
+        },
+        {
+            "namaDormitizen": "Abdillah Aufa",
+            "namaPenerima": "Adhee (HD)",
+            "kamar": "413",
+            "waktu": "17.24.55 - 15/10/2024",
+            "aktivitas": "Masuk"
+        },
+        {
+            "namaDormitizen": "Dias Adani",
+            "namaPenerima": "Iksan (SR)",
+            "kamar": "115",
+            "waktu": "21.59.59 - 15/10/2024",
+            "aktivitas": "Masuk"
+        }
+    ]
+}
