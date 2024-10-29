@@ -4,17 +4,13 @@
     padding: 0;
     font-family: poppins;
     font-weight: semi-bold;
+    background-color: white;
 }
 
 .container {
-    max-width: 800px;
+    max-width: full;
     margin: 50px auto;
     padding: 20px;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 20px;
 }
 
 .search-sort {
@@ -39,8 +35,8 @@ table {
 table thead th {
     text-align: left;
     padding: 15px;
-    background-color: #f9f9f9;
-    border-bottom: 2px solid #ddd;
+    background-color: white;
+    border-bottom: 1px solid #eee;
 }
 
 table tbody td {
@@ -54,12 +50,11 @@ table tbody td {
 }
 
 meter {
-    width: 100px;
-    height: 8px;
-    margin-left: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #eee;
+    width: 125px;
+    height: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background-color: #ddd;
 }
 
 meter::-webkit-meter-optimum-value {
@@ -67,7 +62,6 @@ meter::-webkit-meter-optimum-value {
 }
 
 .detail-btn {
-    background-color: #fff;
     color: #28a745;
     border-color: #28a745;
     padding: 5px 15px;
