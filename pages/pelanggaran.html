@@ -96,11 +96,14 @@
         <!-- MAIN -->
         <section id="main">
             <div class="container">
-
                 <div class="search-sort">
-                    <input type="text" placeholder="Cari disini" id="searchInput">
+                    <form action="">
+                        <input type="text" class="searchbox" placeholder="🔍 Cari disini">
+                    </form>
                     <select id="sortOption">
-                        <option>Di urut : Hari ini</option>
+                        <option value="hari-ini">Hari Ini</option>
+                        <option value="terbanyak">Terbanyak</option>
+                        <option value="sedikit">Sedikit</option>
                     </select>
                 </div>
 
@@ -113,28 +116,24 @@
                             <th>Detail</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>210</td>
-                            <td>Astri Indah Rahma</td>
-                            <td class="progress-container">
-                                1 / 9
-                                <meter value="1" max="9"></meter>
-                            </td>
-                            <td><button class="detail-btn">Detail</button></td>
-                        </tr>
+                    <tbody id="dataTable">
+                        <!-- Data akan dimuat melalui JavaScript -->
                     </tbody>
                 </table>
 
                 <div class="pagination">
-                    <span>Menampilkan data 1 dari 1 data</span>
+                    <span>Menampilkan data 1 sampai 9 dari 25 data</span>
+                    <div class="page-numbers">
+                        <button>1</button>
+                        <button>2</button>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- MAIN -->
     </section>
     <!-- CONTENT -->
-
+    <script src="pelanggaran.js"></script>
 </body>
 
 </html>

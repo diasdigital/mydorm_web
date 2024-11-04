@@ -1,0 +1,44 @@
+[
+    {
+        "kamar": "210",
+        "nama": "Astri Indah Rahma",
+        "pelanggaran": 1,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "300",
+        "nama": "Rowan Atkinson",
+        "pelanggaran": 8,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "200",
+        "nama": "Layla Amelia",
+        "pelanggaran": 9,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "119",
+        "nama": "Anthoine Hubert",
+        "pelanggaran": 8,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "317",
+        "nama": "Jules Bianchi",
+        "pelanggaran": 3,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "101",
+        "nama": "Kazuya Mishima",
+        "pelanggaran": 2,
+        "maxPelanggaran": 9
+    },
+    {
+        "kamar": "400",
+        "nama": "Dao-Hen Hring",
+        "pelanggaran": 2,
+        "maxPelanggaran": 9
+    }
+]
