@@ -1,0 +1,67 @@
+.tambahPaket-container {
+    width: 400px;
+    height: 60vh;
+    /* background: cadetblue; */
+}
+
+.input-container {
+    width: 90%;
+    height: 45vh;
+    /* background: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-container > * {
+    height: 60px;
+    /* background: burlywood; */
+    display: flex;
+    flex-direction: column;
+    color: #454C50;
+}
+
+.input-noKamar {
+    width: 100px;
+}
+
+#uploadBtn {
+    display: none;
+}
+
+
+
+input {
+    border-radius: 0.4em;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: #F1F2F7;
+}
+
+.waktu-container {
+    width: 200px;
+}
+
+.upload-container button {
+    height: 30px;
+    width: 130px;
+    background: #B22D30;
+    color: white;
+    border-radius: 0.4em;
+    border: 1px solid transparent;
+}
+
+.btn-simpan {
+    align-items: end;
+}
+
+.btn-simpan button {
+    height: 30px;
+    width: 100px;
+    background: #B22D30;
+    color: white;
+    border-radius: 0.4em;
+    border: 1px solid transparent;
+    
+}
