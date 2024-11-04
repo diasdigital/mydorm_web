@@ -1,14 +1,14 @@
 [
     {
-        "kamar": "210",
+        "kamar": "413",
         "nama": "Astri Indah Rahma",
         "pelanggaran": 1,
         "maxPelanggaran": 9
     },
     {
-        "kamar": "300",
-        "nama": "Rowan Atkinson",
-        "pelanggaran": 8,
+        "kamar": "413",
+        "nama": "Mickey Mouse",
+        "pelanggaran": 3,
         "maxPelanggaran": 9
     },
     {
@@ -30,13 +30,13 @@
         "maxPelanggaran": 9
     },
     {
-        "kamar": "101",
+        "kamar": "100",
         "nama": "Kazuya Mishima",
         "pelanggaran": 2,
         "maxPelanggaran": 9
     },
     {
-        "kamar": "400",
+        "kamar": "404",
         "nama": "Dao-Hen Hring",
         "pelanggaran": 2,
         "maxPelanggaran": 9
