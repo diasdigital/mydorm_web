@@ -1,14 +1,11 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: poppins;
-    font-weight: semi-bold;
+    font-family: poppins, sans-serif;
     background-color: white;
 }
 
 .container {
-    max-width: full;
+    max-width: 100%;
     margin: 50px auto;
     padding: 20px;
 }
@@ -36,12 +33,15 @@ table thead th {
     text-align: left;
     padding: 15px;
     background-color: white;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
 }
 
 table tbody td {
     padding: 15px;
-    border-bottom: 1px solid #eee;
+}
+
+table tbody {
+    border-bottom: 1px solid #ddd;
 }
 
 .progress-container {
@@ -63,9 +63,9 @@ meter::-webkit-meter-optimum-value {
 
 .detail-btn {
     color: #28a745;
-    border-color: #28a745;
-    padding: 5px 15px;
+    border: 2px solid;
     border-radius: 5px;
+    padding: 5px 15px;
     cursor: pointer;
 }
 
