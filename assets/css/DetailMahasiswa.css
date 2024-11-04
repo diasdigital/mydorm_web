@@ -1,0 +1,45 @@
+@import url(/assets/css/style.css);
+
+.search-bar {
+    width: 100%;
+}
+.search-bar input {
+    border-radius: 5px;
+    float: right;
+    margin-bottom: 30px;
+    padding: 20px;
+    position: relative;
+    border: #a1a1a1;
+    height: 30px;
+}
+
+.search-bar select {
+    position: relative;
+    float: right;
+    border: #a1a1a1;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.detail {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    background: white;
+}
+
+.detail th {
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+
+.detail tr {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.detail td {
+    padding: 20px;
+    color: rgb(44, 44, 44);
+}
