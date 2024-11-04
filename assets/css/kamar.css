@@ -24,7 +24,6 @@
 .rakha .grid {
     margin: 20px 0px;
     display: grid;
-    align-content: space-evenly;
     gap: 20px;
     grid-template-columns: 80px 80px 80px 80px 80px 80px;
 }
