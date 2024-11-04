@@ -10,7 +10,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/pelanggaran.css">
+    <link rel="stylesheet" href="../assets/css/DetailMahasiswa.css">
     <link rel="stylesheet" href="../assets/css/logPage_style.css">
     <link rel="stylesheet" href="../assets/css/detail-kamar.css">
 
@@ -104,8 +104,49 @@
                 </div>
             
                 <div id="Tab1" class="tab-content" style="display: block;">
-                    <h2>Tab 1 Content</h2>
-                    <p>This is the content of Tab 1.</p>
+                    <div class="search-bar">
+
+                        <select name="urut">
+                            <option value="">Urut berdasarkan</option>
+                            <option value="nama">Nama</option>
+                            <option value="NIM">NIM</option>
+                            <option value="prodi">Program Studi</option>
+                            <option value="agama">Agama</option>
+                        </select>
+                        <input type="text" placeholder="Cari disini">
+                    </div>
+        
+        
+        
+                    <table class="detail" id="detail-mahasiswa">
+                        <tr>
+                            <th>Nama Penghuni</th>
+                            <th>NIM</th>
+                            <th>Program Studi</th>
+                            <th>Agama</th>
+                            <th>No HP Penghuni</th>
+                            <th>No HP Orang Tua</th>
+                            <th>Alamat Orang Tua</th>
+                        </tr>
+                        <tr>
+                            <td>Vina Cooper</td>
+                            <td>1234567890</td>
+                            <td>S1 Informatika</td>
+                            <td>Islam</td>
+                            <td>080011112222</td>
+                            <td>082233331111</td>
+                            <td>Jl. Raya Bojongsoang</td>
+                        </tr>
+                        <tr>
+                            <td>Vina Cooper</td>
+                            <td>1234567890</td>
+                            <td>S1 Informatika</td>
+                            <td>Islam</td>
+                            <td>080011112222</td>
+                            <td>082233331111</td>
+                            <td>Jl. Raya Bojongsoang</td>
+                        </tr>
+                    </table>
                     
                 </div>
                 <div id="Tab2" class="tab-content">
@@ -145,38 +186,8 @@
                 </div>
                 <div id="Tab3" class="tab-content">
                     <div class="container">
+                        <div class="col" id="col-id">
 
-                        <div class="search-sort">
-                            <input type="text" placeholder="Cari disini" id="searchInput">
-                            <select id="sortOption">
-                                <option>Di urut : Hari ini</option>
-                            </select>
-                        </div>
-        
-                        <table >
-                            <thead>
-                                <tr>
-                                    <th>Kamar</th>
-                                    <th>Nama Mahasiswa</th>
-                                    <th>Banyak Pelanggaran</th>
-                                    <th>Detail</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>413</td>
-                                    <td>Astri Indah Rahma</td>
-                                    <td class="progress-container">
-                                        1 / 9
-                                        <meter value="1" max="9"></meter>
-                                    </td>
-                                    <td><button class="detail-btn">Detail</button></td>
-                                </tr>
-                            </tbody>
-                        </table>
-        
-                        <div class="pagination">
-                            <span>Menampilkan data 1 dari 1 data</span>
                         </div>
                     </div>
                 </div>

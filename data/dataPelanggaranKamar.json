@@ -1,0 +1,40 @@
+[
+  {
+    "nama": "Dias Adani",
+    "pelanggaran": [
+      {
+        "jenis": "Merokok",
+        "tanggal": "17/07/2024",
+        "bukti": "smoke.jpg"
+      },
+      {
+        "jenis": "Merokok",
+        "tanggal": "17/07/2024",
+        "bukti": "smoke.jpg"
+      },
+      {
+        "jenis": "Merokok",
+        "tanggal": "17/07/2024",
+        "bukti": "smoke.jpg"
+      }
+    ]
+  },
+  {
+    "nama": "Rakha Galih",
+    "pelanggaran": [
+      {
+        "jenis": "Merokok",
+        "tanggal": "17/07/2024",
+        "bukti": "smoke.jpg"
+      }
+    ]
+  },
+  {
+    "nama": "Abdillah Aufa",
+    "pelanggaran": []
+  },
+  {
+    "nama": "Iksan Oktav",
+    "pelanggaran": []
+  }
+]

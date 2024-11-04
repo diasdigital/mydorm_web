@@ -6,7 +6,8 @@
         "agama": "Islam",
         "noHpPenghuni": "081122334455",
         "noHpOrangTua": "089988776655",
-        "alamatOrangTua": "Jl. Raya Bojongsoang"
+        "alamatOrangTua": "Jl. Raya Bojongsoang",
+        "kamar": 413
     },
     {
         "nama": "Siti",
@@ -15,7 +16,8 @@
         "agama": "Islam",
         "noHpPenghuni": "081122334456",
         "noHpOrangTua": "089988776656",
-        "alamatOrangTua": "Jl. Melati No. 5"
+        "alamatOrangTua": "Jl. Melati No. 5",
+        "kamar": 402
     },
     {
         "nama": "Andi",
@@ -24,7 +26,8 @@
         "agama": "Kristen",
         "noHpPenghuni": "081122334457",
         "noHpOrangTua": "089988776657",
-        "alamatOrangTua": "Jl. Kenanga No. 10"
+        "alamatOrangTua": "Jl. Kenanga No. 10",
+        "kamar": 402
     },
     {
         "nama": "Dewi",
@@ -33,7 +36,8 @@
         "agama": "Hindu",
         "noHpPenghuni": "081122334458",
         "noHpOrangTua": "089988776658",
-        "alamatOrangTua": "Jl. Cempaka No. 3"
+        "alamatOrangTua": "Jl. Cempaka No. 3",
+        "kamar": 409
     },
     {
         "nama": "Joko",
@@ -42,7 +46,8 @@
         "agama": "Islam",
         "noHpPenghuni": "081122334459",
         "noHpOrangTua": "089988776659",
-        "alamatOrangTua": "Jl. Durian No. 2"
+        "alamatOrangTua": "Jl. Durian No. 2",
+        "kamar": 413
     },
     {
         "nama": "Lina",
@@ -51,7 +56,8 @@
         "agama": "Kristen",
         "noHpPenghuni": "081122334460",
         "noHpOrangTua": "089988776660",
-        "alamatOrangTua": "Jl. Anggrek No. 1"
+        "alamatOrangTua": "Jl. Anggrek No. 1",
+        "kamar": 102
     },
     {
         "nama": "Rudi",
@@ -60,7 +66,8 @@
         "agama": "Islam",
         "noHpPenghuni": "081122334461",
         "noHpOrangTua": "089988776661",
-        "alamatOrangTua": "Jl. Mawar No. 4"
+        "alamatOrangTua": "Jl. Mawar No. 4",
+        "kamar": 402
     },
     {
         "nama": "Tina",
@@ -69,7 +76,8 @@
         "agama": "Hindu",
         "noHpPenghuni": "081122334462",
         "noHpOrangTua": "089988776662",
-        "alamatOrangTua": "Jl. Soka No. 6"
+        "alamatOrangTua": "Jl. Soka No. 6",
+        "kamar": 413
     },
     {
         "nama": "Asep",
@@ -78,7 +86,8 @@
         "agama": "Islam",
         "noHpPenghuni": "081122334463",
         "noHpOrangTua": "089988776663",
-        "alamatOrangTua": "Jl. Pelangi No. 7"
+        "alamatOrangTua": "Jl. Pelangi No. 7",
+        "kamar": 402
     },
     {
         "nama": "Nina",
@@ -87,6 +96,7 @@
         "agama": "Kristen",
         "noHpPenghuni": "081122334464",
         "noHpOrangTua": "089988776664",
-        "alamatOrangTua": "Jl. Bunga No. 8"
+        "alamatOrangTua": "Jl. Bunga No. 8",
+        "kamar": 413
     }
 ]
