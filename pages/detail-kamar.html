@@ -10,6 +10,8 @@
 
     <!-- css -->
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pelanggaran.css">
+    <link rel="stylesheet" href="../assets/css/logPage_style.css">
     <link rel="stylesheet" href="../assets/css/detail-kamar.css">
 
 </head>
@@ -96,22 +98,87 @@
         <section id="main">
             <div class="rakha">
                 <div class="tab-bar">
-                    <button class="tab-link active" onclick="openTab(event, 'Tab1')">Tab 1</button>
-                    <button class="tab-link" onclick="openTab(event, 'Tab2')">Tab 2</button>
-                    <button class="tab-link" onclick="openTab(event, 'Tab3')">Tab 3</button>
+                    <button class="tab-link active" onclick="openTab(event, 'Tab1')">Detail Penghuni</button>
+                    <button class="tab-link" onclick="openTab(event, 'Tab2')">Log Keluar-Masuk</button>
+                    <button class="tab-link" onclick="openTab(event, 'Tab3')">Pelanggaran</button>
                 </div>
             
                 <div id="Tab1" class="tab-content" style="display: block;">
                     <h2>Tab 1 Content</h2>
                     <p>This is the content of Tab 1.</p>
+                    
                 </div>
                 <div id="Tab2" class="tab-content">
-                    <h2>Tab 2 Content</h2>
-                    <p>This is the content of Tab 2.</p>
+                    <div class="container">
+                        <div class="actions">
+                            <button class="add-button">+</button>
+                            <form action="">
+                                <input type="text" class="searchbox" placeholder="🔍 Cari disini">
+                            </form>
+                            <div class="sort">
+                                <span class="sort-text">Diurut : <span class="selected-sort">Hari ini</span></span>
+                                <div class="dropdown-content">
+                                    <a href="#">Hari ini</a>
+                                    <a href="#">Minggu ini</a>
+                                    <a href="#">Bulan ini</a>
+                                    <a href="#">Tahun ini</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="log-content">
+                            <table id="tabel-log">
+                                <tr>
+                                    <th class="dormitizen-column">Nama Dormitizen</th>
+                                    <th class="helpdesk-column">Nama Penerima</th>
+                                    <th class="time-column">Waktu</th>
+                                    <th class="activity-column">Aktivitas</th>
+                                    <th></th>
+                                </tr>
+                            </table>
+                
+                            <div>
+                                <p id="data-info">Menampilkan data 1 sampai 2 dari 25 data</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="Tab3" class="tab-content">
-                    <h2>Tab 3 Content</h2>
-                    <p>This is the content of Tab 3.</p>
+                    <div class="container">
+
+                        <div class="search-sort">
+                            <input type="text" placeholder="Cari disini" id="searchInput">
+                            <select id="sortOption">
+                                <option>Di urut : Hari ini</option>
+                            </select>
+                        </div>
+        
+                        <table >
+                            <thead>
+                                <tr>
+                                    <th>Kamar</th>
+                                    <th>Nama Mahasiswa</th>
+                                    <th>Banyak Pelanggaran</th>
+                                    <th>Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>413</td>
+                                    <td>Astri Indah Rahma</td>
+                                    <td class="progress-container">
+                                        1 / 9
+                                        <meter value="1" max="9"></meter>
+                                    </td>
+                                    <td><button class="detail-btn">Detail</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+        
+                        <div class="pagination">
+                            <span>Menampilkan data 1 dari 1 data</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
