@@ -50,7 +50,9 @@ function renderTable() {
                     </button>
                 </td>
                 <td>
-                    <button class="edit-btn">Edit</button>
+                    <a href="./editPaket.html">
+                        <button class="edit-btn">Edit</button>
+                    </a>
                     <button class="delete-btn">Hapus</button>
                 </td>
             </tr>

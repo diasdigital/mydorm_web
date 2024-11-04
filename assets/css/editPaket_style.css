@@ -1,0 +1,82 @@
+.editPaket-container {
+    width: 450px;
+    height: 60vh;
+}
+
+.input-container {
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.input-container > * {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    color: #454C50;
+}
+
+.input-container .upload-container {
+    height: 250px;
+}
+
+.input-noKamar {
+    width: 100px;
+}
+
+#uploadBtn {
+    display: none;
+}
+
+input {
+    border-radius: 0.4em;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: #F1F2F7;
+}
+
+.waktu-container {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.waktu-container  input {
+    width: 180px;
+}
+
+.upload-container button {
+    height: 30px;
+    width: 130px;
+    background: #B22D30;
+    color: white;
+    border-radius: 0.4em;
+    border: 1px solid transparent;
+}
+
+.btn-simpan {
+    align-items: end;
+}
+
+.btn-simpan button {
+    height: 30px;
+    width: 100px;
+    background: #B22D30;
+    color: white;
+    border-radius: 0.4em;
+    border: 1px solid transparent;
+    
+}
+
+.gambar {
+    width: 200px;
+    height: 100px;
+    background: rgb(185, 184, 184);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
