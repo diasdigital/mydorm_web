@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/pelanggaran.css">
+    <link rel="stylesheet" href="../assets/css/logPage_style.css">
+    <link rel="stylesheet" href="../assets/css/detail-kamar.css">
+
+</head>
+
+<body>
+    <!-- SIDEBAR -->
+    <section id="sidebar">
+        <a href="#" class="brand">
+            <img src="../assets/images/logo.png" alt="logo">
+            <span class="text">My Dorm</span>
+        </a>
+        <ul class="side-menu top">
+            <li>
+                <a href="/index.html">
+                    <i class='bx bx-chat'></i>
+                    <span class="dashboard">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/logKeluarMasuk.html">
+                    <i class='bx bxs-detail'></i>
+                    <span class="Keluar-Masuk">Keluar-Masuk</span>
+                </a>
+            </li>
+            <li class="active">
+                <a href="/pages/kamar.html">
+                    <i class='bx bxs-door-open'></i>
+                    <span class="kamar">Kamar</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/paket.html">
+                    <i class='bx bxs-package'></i>
+                    <span class="paket">Paket</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/pelanggaran.html">
+                    <i class='bx bx-error-alt'></i>
+                    <span class="pelanggaran">Pelanggaran</span>
+                </a>
+            </li>
+            <li>
+                <a href="/pages/detail.html">
+                    <i class='bx bxs-user-detail'></i>
+                    <span class="detail">Detail Mahasiswa</span>
+                </a>
+            </li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="pengaturan">Pengaturan</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="lapor">
+                    <i class='bx bxs-comment-error'></i>
+                    <span class="text">Lapor masalah</span>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <!-- SIDEBAR -->
+
+    <!-- CONTENT -->
+    <section id="content">
+        <!-- NAVBAR -->
+        <nav>
+            <i class="bx bx-menu"></i>
+            <h1>Dashboard</h1>
+            <a href="#" class="notification">
+                <i class="bx bxs-bell"></i>
+                <span class="num">8</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="../assets/images/avatar.jpg" alt="avatar">
+            </a>
+        </nav>
+        <!-- NAVBAR -->
+
+        <!-- MAIN -->
+        <section id="main">
+            <div class="rakha">
+                <div class="tab-bar">
+                    <button class="tab-link active" onclick="openTab(event, 'Tab1')">Detail Penghuni</button>
+                    <button class="tab-link" onclick="openTab(event, 'Tab2')">Log Keluar-Masuk</button>
+                    <button class="tab-link" onclick="openTab(event, 'Tab3')">Pelanggaran</button>
+                </div>
+            
+                <div id="Tab1" class="tab-content" style="display: block;">
+                    <h2>Tab 1 Content</h2>
+                    <p>This is the content of Tab 1.</p>
+                    
+                </div>
+                <div id="Tab2" class="tab-content">
+                    <div class="container">
+                        <div class="actions">
+                            <button class="add-button">+</button>
+                            <form action="">
+                                <input type="text" class="searchbox" placeholder="🔍 Cari disini">
+                            </form>
+                            <div class="sort">
+                                <span class="sort-text">Diurut : <span class="selected-sort">Hari ini</span></span>
+                                <div class="dropdown-content">
+                                    <a href="#">Hari ini</a>
+                                    <a href="#">Minggu ini</a>
+                                    <a href="#">Bulan ini</a>
+                                    <a href="#">Tahun ini</a>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="log-content">
+                            <table id="tabel-log">
+                                <tr>
+                                    <th class="dormitizen-column">Nama Dormitizen</th>
+                                    <th class="helpdesk-column">Nama Penerima</th>
+                                    <th class="time-column">Waktu</th>
+                                    <th class="activity-column">Aktivitas</th>
+                                    <th></th>
+                                </tr>
+                            </table>
+                
+                            <div>
+                                <p id="data-info">Menampilkan data 1 sampai 2 dari 25 data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Tab3" class="tab-content">
+                    <div class="container">
+
+                        <div class="search-sort">
+                            <input type="text" placeholder="Cari disini" id="searchInput">
+                            <select id="sortOption">
+                                <option>Di urut : Hari ini</option>
+                            </select>
+                        </div>
+        
+                        <table >
+                            <thead>
+                                <tr>
+                                    <th>Kamar</th>
+                                    <th>Nama Mahasiswa</th>
+                                    <th>Banyak Pelanggaran</th>
+                                    <th>Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>413</td>
+                                    <td>Astri Indah Rahma</td>
+                                    <td class="progress-container">
+                                        1 / 9
+                                        <meter value="1" max="9"></meter>
+                                    </td>
+                                    <td><button class="detail-btn">Detail</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+        
+                        <div class="pagination">
+                            <span>Menampilkan data 1 dari 1 data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- MAIN -->
+    </section>
+    <!-- CONTENT -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/detail-kamar.js"></script>
+</body>
+
+</html>

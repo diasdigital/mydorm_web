@@ -1,5 +1,10 @@
 $(document).ready(function () { 
     loadKamar();
+    $(document).ready(function() {
+        $('.container').on('click', function() {
+            window.location.href = '../pages/detail-kamar.html'; // Ganti dengan nama file tujuan
+        });
+    });
 });
 
 function loadKamar() {
@@ -15,10 +20,18 @@ function loadKamar() {
     
     for(let i = 4; i > 0; i--) { // Loop untuk lantai dari 4 sampai 1
         for(let j = 1; j <= 12; j++) { // Loop untuk menambahkan 12 container di setiap lantai
-            $(`#lantai${i}-row1`).append(`<div class='container'>${100 * i + j}</div>`); // Menambahkan container dengan nilai 100*i + j
+            if(j % 4 == 0){
+                $(`#lantai${i}-row1`).append(`<div class='container' style="background-color:grey">${100 * i + j}</div>`); // Menambahkan container dengan nilai 100*i + j
+            } else {
+                $(`#lantai${i}-row1`).append(`<div class='container'>${100 * i + j}</div>`);
+            }
         }
         for(let j = 13; j <= 24; j++) { // Loop untuk menambahkan 12 container di setiap lantai
-            $(`#lantai${i}-row2`).append(`<div class='container'>${100 * i + j}</div>`); // Menambahkan container dengan nilai 100*i + j
+            if(j % 4 == 0){
+                $(`#lantai${i}-row2`).append(`<div class='container' style="background-color:grey">${100 * i + j}</div>`); // Menambahkan container dengan nilai 100*i + j
+            } else {
+                $(`#lantai${i}-row2`).append(`<div class='container'>${100 * i + j}</div>`);
+            }
         }
     }    
     
