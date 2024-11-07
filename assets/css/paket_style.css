@@ -120,7 +120,7 @@
     margin-top: 20px;
     width: 100%;
     overflow-x: auto;
-    height: 75vh; 
+    height: 70vh; 
     display: flex;
     flex-direction: column;
 }
@@ -130,6 +130,7 @@ table {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     color: #333;
+    background: white;
 }
 table th, table td {
     padding: 12px;
@@ -143,6 +144,7 @@ table th {
 table tr:hover {
     background-color: #f1f1f1;
 }
+
 
 .label-sudah {
     border: 2px solid #007AFF;
@@ -185,4 +187,11 @@ table tr:hover {
 .pagination-desc {
     color: #9fa5b5;
     opacity: 0.6;
+}
+
+.gambar {
+    width: 40px;
+    height: 40px;
+    background: grey;
+    margin-left: 10px;
 }
