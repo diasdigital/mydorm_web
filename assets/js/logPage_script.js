@@ -16,13 +16,18 @@ $(document).ready(function () {
             }</button></td>
                     <td>
                         <div class="single-log-actions">
-                            <button class="single-action" id="edit">✏️</button>
+                            <button class="single-action" id="edit-btn">✏️</button>
                             <button class="single-action" id="delete">🗑️</button>
                         </div>
                     </td>
                 </tr>
             `;
             tableBody.append(row);
+        });
+
+        $('.edit-btn').click(function () {  // Ambil ID dari data-id atribut
+            const url = `../../../editLog.html`;  // Tentukan URL halaman edit dan sertakan ID
+            window.location.href = url;  // Alihkan ke halaman edit
         });
 
         // Update info data
