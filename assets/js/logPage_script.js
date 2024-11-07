@@ -25,9 +25,8 @@ $(document).ready(function () {
             tableBody.append(row);
         });
 
-        $('.edit-btn').click(function () {  // Ambil ID dari data-id atribut
-            const url = `../../../editLog.html`;  // Tentukan URL halaman edit dan sertakan ID
-            window.location.href = url;  // Alihkan ke halaman edit
+        $('#edit-btn').click(function () { 
+            window.location.href = 'editLog.html';  // Alihkan ke halaman edit
         });
 
         // Update info data
