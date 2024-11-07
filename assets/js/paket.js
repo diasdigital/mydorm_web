@@ -1,5 +1,5 @@
 let currentPage = 1; // Halaman saat ini
-const itemsPerPage = 8; // Jumlah item per halaman
+const itemsPerPage = 7; // Jumlah item per halaman
 let totalPages = 0; // Total halaman
 let data = []; // Menyimpan data
 
@@ -38,6 +38,12 @@ function renderTable() {
 
         $('#data-table tbody').append(`
             <tr>
+                
+                <td>
+                    <div class="gambar">
+                        <img src="/assets/images/paket.jpg " alt="Bukti" width="50", height="50">
+                    </div>
+                </td>
                 <td>${item.nama_penerima}</td>
                 <td>${item.pj_penerima}</td>
                 <td>${item.pj_penyerahan}</td>
