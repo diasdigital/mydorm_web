@@ -1,8 +1,3 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-}
-
 table {
     margin-top: 20px;
     border-collapse: collapse;
@@ -55,7 +50,6 @@ a {
     background-color: whitesmoke;
     height: 35px;
 }
-
 
 .sort {
     position: relative;
@@ -125,7 +119,8 @@ a {
     cursor: pointer;
 }
 
-th, td{
+th,
+td {
     padding: 10px 35px 10px 35px;
     text-align: center;
 }

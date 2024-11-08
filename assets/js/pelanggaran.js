@@ -1,11 +1,11 @@
 // Load data from JSON and display in the table
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
     fetch('../data/dataPelanggaran.json')
-        .then(response => response.json())
-        .then(data => {
-            const dataTable = document.getElementById("dataTable");
-            data.forEach(item => {
-                const row = document.createElement("tr");
+        .then((response) => response.json())
+        .then((data) => {
+            const dataTable = document.getElementById('dataTable');
+            data.forEach((item) => {
+                const row = document.createElement('tr');
 
                 row.innerHTML = `
                     <td>${item.kamar}</td>
@@ -14,7 +14,10 @@ document.addEventListener("DOMContentLoaded", function () {
                         ${item.pelanggaran}/${item.maxPelanggaran} 
                         <meter value="${item.pelanggaran}" max="${item.maxPelanggaran}"></meter>
                     </td>
-                    <td><button class="detail-btn">Detail</button></td>
+                    <td>
+                    <a href="./detail-kamar.html">
+                        <button class="detail-btn">Detail</button>
+                    </td>
                 `;
 
                 dataTable.appendChild(row);

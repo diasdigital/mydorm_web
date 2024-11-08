@@ -1,0 +1,74 @@
+@import url(/assets/css/style.css);
+
+.row {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.requests {
+    width: 300px;
+    padding: 10px;
+    background: var(--light);
+    border-radius: 8px;
+    border: 0.5px solid grey;
+}
+
+.requests .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.request {
+    margin: 5px;
+    padding: 10px;
+    background: #e4e6f4;
+    display: flex;
+}
+
+.request p {
+    margin-right: auto;
+}
+
+.request .reject {
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+    background: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.request .accept {
+    margin-right: 5px;
+    width: 20px;
+    height: auto;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 10px;
+    margin-right: 20px;
+    background: var(--light);
+    border-radius: 8px;
+    border: 0.5px solid grey;
+    display: flex;
+}
+
+.card .bx {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.card .teks {
+    width: 100%;
+}
+
+.card .teks .angka {
+    font-size: 30px;
+}
