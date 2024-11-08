@@ -16,13 +16,17 @@ $(document).ready(function () {
             }</button></td>
                     <td>
                         <div class="single-log-actions">
-                            <button class="single-action" id="edit">✏️</button>
+                            <button class="single-action" id="edit-btn">✏️</button>
                             <button class="single-action" id="delete">🗑️</button>
                         </div>
                     </td>
                 </tr>
             `;
             tableBody.append(row);
+        });
+
+        $('#edit-btn').click(function () { 
+            window.location.href = 'editLog.html';  // Alihkan ke halaman edit
         });
 
         // Update info data
