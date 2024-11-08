@@ -23,23 +23,23 @@
     padding-left: 5px;
 }
 
-.detail {
+.detail-table {
     border-collapse: collapse;
     width: 100%;
     padding: 10px;
     background: white;
 }
 
-.detail th {
+.detail-table th {
     border-bottom: 2px solid black;
     padding: 15px;
 }
 
-.detail tr {
+.detail-table tr {
     border-bottom: 1px solid #a1a1a1;
 }
 
-.detail td {
+.detail-table td {
     padding: 20px;
     color: rgb(44, 44, 44);
 }
