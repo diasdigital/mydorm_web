@@ -1,0 +1,57 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.tambahLog-container {
+    width: 400px;
+    height: 60vh;
+}
+
+.input-noKamar {
+    width: 100px;
+}
+
+.input-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.waktu-container {
+    width: 200px;
+}
+
+.nokamar-container, .nama-container, .pjPenerima-container, .waktu-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aktivitas-container {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="number"], input[type="datetime-local"] {
+    border-radius: 0.4em;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    background: #F1F2F7;
+}
+
+.btn-simpan {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-simpan button {
+    height: 30px;
+    width: 100px;
+    background: #B22D30;
+    color: white;
+    border-radius: 0.4em;
+    border: 1px solid transparent;
+    cursor: pointer;
+}

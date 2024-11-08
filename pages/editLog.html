@@ -4,15 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- css -->
+    <title>My Dorm</title>
+    <link rel="stylesheet" href="../assets/css/modifLog_style.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/logPage_style.css">
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>MyDorm</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -82,7 +78,7 @@
         <!-- NAVBAR -->
         <nav>
             <i class="bx bx-menu"></i>
-            <h1>Keluar-Masuk</h1>
+            <h1>Edit Keluar Masuk</h1>
             <a href="#" class="notification">
                 <i class="bx bxs-bell"></i>
                 <span class="num">8</span>
@@ -95,46 +91,55 @@
 
         <!-- MAIN -->
         <section id="main">
-            <div class="container">
-                <div class="actions">
-                    <button class="add-button"><a href="tambahLog.html">+</a></button>
-                    <form action="">
-                        <input type="text" class="searchbox" placeholder="🔍 Cari disini">
-                    </form>
-                    <div class="sort">
-                        <span class="sort-text">Diurut : <span class="selected-sort">Hari ini</span></span>
-                        <div class="dropdown-content">
-                            <a href="#">Hari ini</a>
-                            <a href="#">Minggu ini</a>
-                            <a href="#">Bulan ini</a>
-                            <a href="#">Tahun ini</a>
+            <div class="tambahLog-container">
+                <form action="logKeluarMasuk.html">
+                    <div class="input-container">
+                        <div class="nokamar-container">
+                            <label for="input-noKamar" class="input-label">Nomor Kamar</label>
+                            <input type="number" class="input-noKamar" max="422" min="101">
+                        </div>
+                        <div class="nama-container">
+                            <label for="" class="input-label">Nama Dormitizen</label>
+                            <input type="text" list="nama-dormitizen">
+                            <datalist id="nama-dormitizen">
+                                <option value="Aufa">
+                                <option value="Dias">
+                                <option value="Iksan">
+                                <option value="Rakha">
+                            </datalist>
+                        </div>
+                        <div class="pjPenerima-container">
+                            <label for="" class="input-label">PJ Penerima</label>
+                            <input type="text">
+                        </div>
+                        <div class="waktu-container">
+                            <label for="" class="input-label">Waktu Penerima</label>
+                            <input type="datetime-local">
+                        </div>
+                        <div class="aktivitas-container">
+                            <label for="" class="input-label">Aktivitas</label>
+                            <div class="pilihan-aktivitas">
+                                <input type="radio" id="aktivitas-masuk" name="aktivitas" value="Masuk">
+                                <label for="aktivitas-masuk">Masuk</label><br>
+                            </div>
+                            <div class="pilihan-aktivitas">
+                                <input type="radio" id="aktivitas-keluar" name="aktivitas" value="Keluar">
+                            <label for="aktivitas-keluar">Keluar</label><br>
+                            </div>
+                        </div>
+                        <div class="btn-simpan">
+                            <button>Simpan</button>
                         </div>
                     </div>
-                </div>
-
-                <div class="log-content">
-                    <table>
-                        <tr>
-                            <th class="dormitizen-column">Nama Dormitizen</th>
-                            <th class="helpdesk-column">Nama Penerima</th>
-                            <th class="room-column">Kamar</th>
-                            <th class="time-column">Waktu</th>
-                            <th class="activity-column">Aktivitas</th>
-                            <th></th>
-                        </tr>
-                    </table>
-
-                    <div>
-                        <p id="data-info">Menampilkan data 1 sampai 2 dari 25 data</p>
-                    </div>
-                </div>
+                </form>
             </div>
         </section>
         <!-- MAIN -->
     </section>
     <!-- CONTENT -->
 
-    <script src="../assets/js/logPage_script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../assets/js/script.js"></script>
 </body>
 
